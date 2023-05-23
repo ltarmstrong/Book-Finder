@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Recommendation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Book Recommendation</h1>
+  <form id="recommendation-form">
+    <label for="genre-select">Genre:</label>
+    <select id="genre-select">
+      <!-- Options will be populated dynamically -->
+    </select>
+
+    <label for="level-select">Reading Level:</label>
+    <select id="level-select">
+      <!-- Options will be populated dynamically -->
+    </select>
+
+    <label for="category-select">Category:</label>
+    <select id="category-select">
+      <!-- Options will be populated dynamically -->
+    </select>
+
+    <button type="submit">Get Recommendations</button>
+  </form>
+
+  <div id="recommendations-container">
+    <!-- Recommendations will be displayed here -->
+  </div>
+
+  <script src="book_finder.js"></script>
+</body>
+</html>
